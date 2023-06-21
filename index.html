@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Anirban- Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover{
+            
+            color: rgb(153,153,226);
+            font-size: 1.02rem;
+        }
+
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px 0;
+        }
+        .firstSection > div{
+            width: 30%;
+        }
+
+        .leftSection{
+            font-size: 2rem;
+            margin: 30px 0;
+        }
+
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+
+        .leftSection .btn{
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .rightSection img{
+            width: 100%;
+            margin: 50px 0;
+        }
+        .purple{
+            color: rgb(170,107,228);
+        }
+        .text-gray{
+            color: gray;
+
+        }
+        #element{
+            color: rgb(170,107,228);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .secondSection h1{
+            font-size: 2rem;
+        }
+        .secondSection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top{
+            width: 23px;
+            position:relative;
+            top: -32px;
+            left: -9px;
+        
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            
+        }
+
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer{
+            background-color: rgb(14, 14, 50);
+            height: 233px;
+            margin: auto;
+            padding: 23px 123px;
+        }
+
+        .footer{
+            display: flex;
+           
+        }
+
+        .footer-rights{
+            color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Ani's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                    <li><a href="https://www.linkedin.com/in/anirban-nag-bb3662277/">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="https://github.com/Annirban">Projects</a></li>
+                    <li><a href="https://www.linkedin.com/in/anirban-nag-bb3662277/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Anirban</span>
+                 
+                <div>and I am a Web Developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="webdev.png">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">Languages and skills </span>
+            <h1>Experiences</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="htmllogo.png">
+                    <div class="vertical-text">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Good knowledge of HTML Hyper Text Markup Language
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="css logo.png">
+                    <div class="vertical-text">
+                        CSS Cascading Style Sheet
+                    </div>
+                    <div class="vertical-desc">
+                        Good knowledge of CSS Cascading Style Sheet
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="JavaScript-Logo-2048x1280.png">
+                    <div class="vertical-text">
+                        JAVA script
+                    </div>
+                    <div class="vertical-desc">
+                        Can add functionality to any website through Java Script
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="C++logo.png">
+                    <div class="vertical-text">
+                        C++ Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Basic knowledge on coding with C++
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="python-logo-png-open-2000.png">
+                    <div class="vertical-text">
+                        Python Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Good knowledge of Python programming Language and can work in different python environments
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="flex">
+            <div class="footer-first">
+                <h3>Ani's Portfolio</h3>
+            </div>
+            <div class="footer-second"></div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+            <div class="footer-rights">
+                Copyright &#169;www.anisportfolio.com | All rights reserved
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Java  Programmer', 'Python Programmer' ],
+      typeSpeed: 50,
+    });
+  </script>
+    
+</body>
+</html>
